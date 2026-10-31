@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School Multipliers India</title>
+<meta name="description" content="How a global student research olympiad could grow through Indian schools: nine sourced multipliers, a school outreach playbook, a funnel model and a 90-day plan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero wrap">
+  <p class="eyebrow">Independent growth plan · checked 31 Oct 2026</p>
+  <h1>School Multipliers: growing a student research olympiad through Indian schools</h1>
+  <p class="lede">A global research olympiad for 13 to 18 year olds already reaches students in 89+ countries, mostly one student at a time. Schools change that: one partner school can register a whole group, and one school network can open dozens of schools. This page maps the Indian networks that could bring schools in, why each would say yes, how I'd approach a school, and how I'd track it for a board.</p>
+  <nav class="toc" aria-label="Sections">
+    <a href="#why">Why schools</a><a href="#map">Multipliers</a><a href="#playbook">Outreach playbook</a><a href="#funnel">Funnel model</a><a href="#plan">90 days</a><a href="#board">Board dashboard</a><a href="#sources">Sources</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section id="why">
+    <h2>Why Indian schools, and why now</h2>
+    <div class="insights" id="insights"></div>
+  </section>
+
+  <section id="map">
+    <div class="section-head">
+      <h2>Nine groups that can bring schools in</h2>
+      <div class="filters" id="tier-filter" role="group" aria-label="Filter by priority"></div>
+    </div>
+    <p class="note">"Now" means I'd start in the first month, "Next" in months two and three, "Later" once there are results to show. Each card has a checked fact; the reasons and asks are my proposals, and none of these groups has agreed to anything.</p>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="playbook">
+    <h2>School outreach playbook</h2>
+    <p class="note">Schools rarely say yes to a cold brochure. They say yes when the right person sees a clear benefit for their students and very little extra work.</p>
+    <h3>Who to contact at a school</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>School type</th><th>Best first contact</th><th>What they care about</th></tr></thead>
+        <tbody>
+          <tr><td>IB Diploma school</td><td>Extended Essay coordinator</td><td>Practice for the research skills their students are already graded on</td></tr>
+          <tr><td>School with a college counsellor</td><td>Counsellor</td><td>Achievements students can list on US and UK applications</td></tr>
+          <tr><td>School with an Atal Tinkering Lab</td><td>Lab in-charge</td><td>A recognised place for lab students to compete</td></tr>
+          <tr><td>Large private chain campus</td><td>Principal, then science head</td><td>Results the school can announce to parents</td></tr>
+          <tr><td>Kendriya Vidyalaya</td><td>Principal, through the regional office</td><td>Low or no cost, and fit with schemes they already run</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>A three-touch sequence</h3>
+    <div class="sequence">
+      <div class="touch">
+        <p class="wk">Touch 1 · Email or WhatsApp to the right contact</p>
+        <p class="msg">Dear Ms Sharma, your students already do research for the Extended Essay. Our research olympiad tests exactly those skills: reading a paper, interpreting data, forming a research question. The top 40% of participants receive named honours. Could I send a free practice paper for your Diploma students to try?</p>
+      </div>
+      <div class="touch">
+        <p class="wk">Touch 2 · Five working days later, with the practice paper</p>
+        <p class="msg">Sharing the practice paper and answer key as promised. If even a few students try it, I'd be glad to hear how they found it. Schools that register a group get one coordinator login and a single results report.</p>
+      </div>
+      <div class="touch">
+        <p class="wk">Touch 3 · A short call or visit</p>
+        <p class="msg">Fifteen minutes with the coordinator to agree three things: a named teacher coordinator, sharing registration with eligible classes, and one practice session before the online round.</p>
+      </div>
+    </div>
+    <p class="note">The names and wording are examples. In practice I'd adapt each message to the school type in the table above.</p>
+
+    <h3>What a "signed partner school" means</h3>
+    <ul class="method">
+      <li>A named teacher coordinator who receives updates and the school's results report.</li>
+      <li>Registration shared with all eligible classes, not one student.</li>
+      <li>One practice session using the free mock exam before the online round.</li>
+      <li>Permission to list the school as a partner, and to share winners' stories with consent.</li>
+    </ul>
+
+    <h3>What I'd ask teachers first</h3>
+    <p class="note">Before scaling outreach, I'd run five short conversations with teachers and counsellors and change the plan based on what they say.</p>
+    <ol class="method">
+      <li>How does your school decide which competitions to promote, and who decides?</li>
+      <li>When in the year is it easiest to add one?</li>
+      <li>What makes you say no to a competition?</li>
+      <li>Would a group discount or a school results report change your answer?</li>
+      <li>Who else at your school should hear about this?</li>
+    </ol>
+  </section>
+
+  <section id="funnel">
+    <h2>Funnel model</h2>
+    <p class="note">A simple model for planning outreach and reporting on it. Every input is an assumption to replace with real numbers after the first month.</p>
+    <div class="calc">
+      <div>
+        <label>Schools contacted per month <span class="tag">assumption</span><input id="f-contacted" type="number" min="1" value="60"></label>
+        <label>Reply rate, % <span class="tag">assumption</span><input id="f-reply" type="number" min="0" max="100" value="25"></label>
+        <label>Replies that become partner schools, % <span class="tag">assumption</span><input id="f-sign" type="number" min="0" max="100" value="40"></label>
+        <label>Students registered per partner school <span class="tag">assumption</span><input id="f-students" type="number" min="0" value="15"></label>
+        <label>Months of outreach before registration closes <span class="tag">assumption</span><input id="f-months" type="number" min="1" value="4"></label>
+      </div>
+      <div class="funnel" aria-live="polite" id="funnel-out"></div>
+    </div>
+  </section>
+
+  <section id="plan">
+    <h2>The first 90 days</h2>
+    <div class="plan">
+      <div class="phase">
+        <p class="wk">Days 1–30 · Learn and set up</p>
+        <ul>
+          <li>Pull last cycle's Indian registrations by school and city to see where students already come from.</li>
+          <li>Five conversations with teachers and counsellors, using the questions above.</li>
+          <li>Build the school kit: principal note, practice paper, club guide and tracked referral links.</li>
+          <li>Start with the "Now" groups: IB schools, IC3 counsellors and ambassadors.</li>
+        </ul>
+      </div>
+      <div class="phase">
+        <p class="wk">Days 31–60 · First partners</p>
+        <ul>
+          <li>Run the three-touch sequence with the first 60 schools and track every reply.</li>
+          <li>Open a conversation with one private chain's central office.</li>
+          <li>Give Indian ambassadors the school kit and a simple monthly target.</li>
+        </ul>
+      </div>
+      <div class="phase">
+        <p class="wk">Days 61–90 · Prove it and widen</p>
+        <ul>
+          <li>Replace the funnel assumptions with real rates and share them with leadership.</li>
+          <li>Approach the "Next" groups with results from the first partner schools.</li>
+          <li>Write the playbook so the same approach can run in other countries.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="board">
+    <h2>What the board would see each month</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Measure</th><th>Why it's there</th></tr></thead>
+        <tbody>
+          <tr><td>Registrations by country and by source (partner school, ambassador, direct)</td><td>Shows which channels grow the competition.</td></tr>
+          <tr><td>Partner schools signed, and students per partner school</td><td>The main growth lever this plan tests.</td></tr>
+          <tr><td>Paid participation and revenue</td><td>Growth only counts if it pays for itself.</td></tr>
+          <tr><td>Outreach funnel: contacted, replied, signed</td><td>Shows where schools drop off.</td></tr>
+          <tr><td>Share of registrations from new countries and cities</td><td>Tracks how far the competition is spreading beyond its base.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="sources">
+    <h2>Sources</h2>
+    <p class="note">Facts come from these pages, checked on 31 October 2026. School and student counts are as each source reports them. Priorities, asks, messages and the funnel inputs are my own proposals.</p>
+    <ol class="sources" id="source-list"></ol>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Independent work built from public sources. Not affiliated with or endorsed by any organisation named.</p>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
